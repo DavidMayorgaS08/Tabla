@@ -2,4 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ff6cd8;
+}
+
+.container{
+    border: solid 1px #fff;
+}
+
+table{
+    color: #fff;
+    font-size: 15px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead{
+    background-color: #ffabe9;
+}
+
+th{
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px #ffc6f0;
+}
+
+tbody tr{
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background-color: #ff00dd;
 }
