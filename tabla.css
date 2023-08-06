@@ -10,22 +10,22 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #003d79, #000000);
+    background: #252525;
 }
 
 .container{
-    border: solid 1px #922B21;
+    border: solid 1px #006D38;
 }
 
 table{
-    color: #fff;
+    color: #ffffff;
     font-size: 15px;
     border-collapse: collapse;
     table-layout: fixed;
 }
 
 thead{
-    background-color: #922B21;
+    background-color: #006D38;
 }
 
 th{
@@ -37,7 +37,7 @@ th{
 
 td{
     padding: 15px;
-    border-bottom: solid 1px #922B21;
+    border-bottom: solid 1px #006D38;
 }
 
 tbody tr{
@@ -45,5 +45,5 @@ tbody tr{
 }
 
 tbody tr:hover{
-    background-color: #922a214e;
+    background-color: #00855D;
 }
