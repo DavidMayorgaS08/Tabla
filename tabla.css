@@ -41,10 +41,3 @@ td{
     text-align: center;
 }
 
-tbody tr{
-    cursor: pointer;
-}
-
-tbody tr:hover{
-    background-color: #00855D;
-}
